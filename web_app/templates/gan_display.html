@@ -1,0 +1,49 @@
+<head>
+    <title>Handwriting Generator</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/styles.css')}}">
+</head>
+<body>
+    <header id='main-header'>
+        <div class="container">
+            <h1>Handwriting Generator</h1>
+        </div>
+    </header>
+
+    <nav id="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="#">Write</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <section id="showcase">
+        <div class="container">
+            <h1>Generate handwriting from typed text using a<br />Generative Adversarial Network (GAN)</h1>
+        </div>
+    </section>
+
+    <div class="container">
+        <section id="main-form">
+            <form action="/" method="POST">
+                <h1>Type in something to generate handwriting</h1>
+                <textarea name="textinp" id="textinp">The magic of automated handwriting awaits!</textarea>
+                <br><br>
+                <div class='btns'>
+                    <input type='submit' id="genb" value='Generate'></input>
+                    <input type='submit' id="dwnb" value='Download'></input>
+                </div>
+            </form>
+        </section>
+        <section id="side-image">
+            <img src="{{url_for('static', filename=image)}}" alt="Waiting to generate your handwriting image...">
+        </section>
+    </div>
+    
+
+    <footer id="main-footer">
+        &copy;2020 Amogh Inamdar, Anagha Rajeev, Sindhuja Rai
+    </footer>
+
+</body>

@@ -1,0 +1,112 @@
+body{
+	background-color:#f4f4f4;
+	color:#555;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:1.6em;
+	margin:0;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+#main-header h1{
+    font-size: 40px;
+}
+
+#navbar{
+	background-color:#333;
+	color:#fff;
+}
+
+#navbar ul{
+	padding:0;
+	list-style: none;
+}
+
+#navbar li{
+	display:inline;
+}
+
+#navbar a{
+	color:#fff;
+	text-decoration: none;
+	font-size:25px;
+	padding-right:15px;
+}
+
+#showcase{
+	background-color:slategrey;
+	background-position:center right;
+	min-height:250px;
+	margin-bottom:30px;
+	text-align: center;
+}
+
+#showcase h1{
+	color:#fff;
+	font-size:40px;
+	line-height: 1.6em;
+	padding-top:30px;
+}
+
+#main-form{
+	float:left;
+	width:50%;
+    box-sizing: border-box;
+}
+
+#main-form h1{
+    font-size: 30px;
+    width: 100%;
+}
+
+#textinp {
+    height: 40%;
+    width: 80%;
+}
+
+.btns input[type=submit] {
+    font-size: 25px;
+    padding: 5px;
+    margin: 10px;
+}
+
+#genb {
+    float: left;
+    margin-left: 10%;
+}
+
+#dwnb {
+    float: right;
+    margin-right: 30%;
+}
+
+.btns:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#side-image {
+	float:right;
+	width:50%;
+	border: 5px solid black;
+	box-sizing: border-box;
+}
+
+#side-image img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#main-footer{
+	background: #333;
+	color:#fff;
+	text-align: center;
+	padding:20px;
+	margin-top:40px;
+}
